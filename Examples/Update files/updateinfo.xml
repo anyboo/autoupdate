@@ -1,8 +1,13 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SELFUPDATE>
+ <VERSION>0.8.1.6</VERSION>
+ <LOCATION>http://client.ruizhengtong.com:8091/SafeAuth/FileResource/download?path=%2Fautoupdate%2Fupdater.exe&fileName=updater.exe</LOCATION>
+</SELFUPDATE>
+
 <UPDATEINFO>
 
 
-  <PROTECTION website="">
+  <PROTECTION website="http://client.ruizhengtong.com">
     <REGISTRATION>
       <LOCATION></LOCATION>
     </REGISTRATION>
@@ -11,7 +16,7 @@
   </PROTECTION>
 
   <GENERAL>
-    <VERSION>0.2.0.1</VERSION>
+    <VERSION>1.1.0.1</VERSION>
     <CLOSEAPPLICATION>false</CLOSEAPPLICATION>
     <CHECKSEPARATELY>true</CHECKSEPARATELY>
     <SHOWERRORS>true</SHOWERRORS>
@@ -28,15 +33,14 @@
   </HTMLMESSAGE>
 
   <FILES>
-    <FILE name="CD Database" location="%app%\CD Database.exe" version="0.1.0.0" hash=""
-          check="" section="" date="">
+    <FILE name="rjsvr" location="%app%\rsyncDaemond.exe" version="0.1.0.1" hash=""
+          check="version" section="" date="">
       <ACTION type="download">
-        <LOCATION>http://geert.yoki.org/cddb.exe</LOCATION>
-        <LOCATION>http://geert1.yoki.org/cddb.exe</LOCATION>
+        <LOCATION>http://client.ruizhengtong.com:8091/SafeAuth/FileResource/download?path=%2Fautoupdate%2Fupdate_1.1.0.1%2FrsyncDaemond.exe&fileName=rsyncDaemond.exe</LOCATION>
       </ACTION>
       <ACTION type="copy">
-        <OLDLOCATION>%updatertemp%\cddb.exe</OLDLOCATION>
-        <NEWLOCATION>%app%\CD Database.exe</NEWLOCATION>
+        <OLDLOCATION>%updatertemp%\rsyncDaemond.exe</OLDLOCATION>
+        <NEWLOCATION>%app%\rsyncDaemond.exe</NEWLOCATION>
         <OVERWRITE>true</OVERWRITE>
       </ACTION>
     </FILE>
@@ -62,8 +66,8 @@
 
   <REGISTRY>
     <ITEM type="string">
-      <KEY>HKEY_LOCAL_MACHINE\SOFTWARE\CD Database\Version</KEY>
-      <VALUE>0.0.0.1</VALUE>
+      <KEY>HKEY_LOCAL_MACHINE\SOFTWARE\rsyncDaemond\Version</KEY>
+      <VALUE>0.1.0.1</VALUE>
     </ITEM>
   </REGISTRY>
 
