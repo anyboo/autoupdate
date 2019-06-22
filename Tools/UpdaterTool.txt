@@ -1,0 +1,7 @@
+Updater Tool - Readme
+=====================
+
+You can download Updater Tool at http://www.gvhsoftware.org.
+
+Updater Tool helps you create the update files so you don't
+have to know anything about the scripts itself.

@@ -1,0 +1,8 @@
+Updater Settings - Readme
+=========================
+
+Updater Settings helps you create the setting file
+for Updater so it is very easy to create the file.
+
+Most settings can be tested with the tool. This way,
+you are able to test the settings file without Updater.

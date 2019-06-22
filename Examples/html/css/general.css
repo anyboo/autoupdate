@@ -1,0 +1,276 @@
+/**************************************************
+*   GEERT THEME
+***************************************************/
+
+/***************************************************
+*   SEVERAL STYLES
+***************************************************/
+
+html, body
+{
+    height: 100%;
+}
+
+/**************************************************/
+
+body, p
+{
+    background-attachment: fixed;
+    color: #777777;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+    font-size:  11px;
+    text-decoration: none;
+    margin: 0px;
+}
+
+/**************************************************/
+
+h1, h2, h3, h4, h5, h6
+{
+    color: black;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/**************************************************/
+
+li
+{
+    background: transparent;
+    color: #777777;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+    font-size:  11px;
+    text-decoration: none;
+}
+
+/**************************************************/
+
+img
+{
+    border-width: 0px;
+}
+
+/**************************************************/
+
+table
+{
+	border-width: 1px;
+	width: 750px;
+	/*cell-spacing: 0px;
+	cell-padding: 0px;*/
+}
+
+/**************************************************/
+
+th
+{
+	color: black;
+	font-weigth: bold;
+	text-align: left;
+}
+
+/***************************************************
+*   LINKS
+***************************************************/
+
+a:link
+{
+    color: #BF3C32;
+    text-decoration: none;
+}
+
+/**************************************************/
+
+a:visited
+{
+    color: #BF3C32;
+    text-decoration: none;
+}
+
+/**************************************************/
+
+a:hover
+{
+    color: #BF3C32;
+    text-decoration: underline;
+}
+
+/**************************************************/
+
+a:active
+{
+    color: #BF3C32;
+    text-decoration: none;
+}
+
+/***************************************************
+*   CUSTOM CLASSES
+***************************************************/
+
+/* draws a splitter line */
+.splitter
+{
+    width: 760px;
+    height: 5px;
+    margin: auto;
+    background-image: url("../img/splitter.jpg");
+    background-repeat: no-repeat;
+}
+
+/**************************************************/
+
+/* used to make view beneath clear floated divs */
+.clear
+{
+     clear: both;
+     font-size: 0px;
+}
+
+/**************************************************/
+
+/* used for showing code */
+
+.code
+{
+	font-family: Courier New;
+	font-size: 10px;
+	font-weight: bold;
+	color: black;
+}
+
+/**************************************************/
+
+/* used for showing highlighted code */
+
+.code_highlight
+{
+	font-family: Courier New;
+	font-size: 10px;
+	font-weight: bold;
+	color: red;
+}
+
+/**************************************************/
+
+/* used for showing version history */
+
+.version
+{
+	font-family: Courier New;
+	font-size: smaller;
+	font-weight: bold;
+}
+
+/**************************************************/
+
+/* used for product title */
+
+.product_title
+{
+	font-size: larger;
+	font-weight: bold;
+}
+
+/**************************************************/
+
+/* used for product table */
+
+.product_table
+{
+	
+}
+
+/**************************************************/
+
+/* used for product logo */
+
+.product_logo
+{
+	float: right;
+}
+
+/**************************************************/
+
+/* used for screenshots */
+
+.screenshot_small
+{
+	width: 75px;
+}
+
+/**************************************************/
+
+/* used for resume */
+
+.resume
+{
+	border: solid 1px #000;	
+}
+
+/**************************************************/
+
+/* used for resume headers */
+
+.resume_header
+{
+	
+}
+
+/***************************************************
+*   CUSTOM ID'S
+***************************************************/
+
+/* used for the main logo at top of site */
+#header
+{
+    width: 760px;
+    height: 100px;
+    border: solid 1px #000;
+    margin: auto;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+}
+
+/**************************************************/
+
+/* class for main menu */
+#main_menu
+{
+    width: 760px;
+	font-size: larger;
+    border: solid 0px #000;
+    text-align: left;
+	padding: 5px;
+    margin: auto;
+}
+
+/**************************************************/
+
+/* class for sub menu */
+#sub_menu
+{
+    width: 760px;
+    border: solid 0px #000;
+    text-align: left;
+    margin: auto;
+}
+
+/**************************************************/
+
+/* class for main content */
+#content
+{
+    width: 760px;
+    border: solid 0px #000;
+    text-align: left;
+    margin: auto;
+}
+
+/**************************************************/
+
+#footer
+{
+    padding-top: 5px;
+    margin: auto;
+    text-align: center;
+}
