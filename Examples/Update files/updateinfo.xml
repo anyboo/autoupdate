@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<SELFUPDATE>
- <VERSION>0.8.1.6</VERSION>
- <LOCATION>http://client.ruizhengtong.com:8091/SafeAuth/FileResource/download?path=%2Fautoupdate%2Fupdater.exe&fileName=updater.exe</LOCATION>
-</SELFUPDATE>
-
+<?xml version="1.0"?>
 <UPDATEINFO>
-
-
   <PROTECTION website="http://client.ruizhengtong.com">
     <REGISTRATION>
       <LOCATION></LOCATION>
@@ -14,7 +7,6 @@
     <HASHING>
     </HASHING>
   </PROTECTION>
-
   <GENERAL>
     <VERSION>1.1.0.1</VERSION>
     <CLOSEAPPLICATION>false</CLOSEAPPLICATION>
@@ -26,15 +18,13 @@
     <FORCEUPDATE>true</FORCEUPDATE>
     <LICENSE></LICENSE>
   </GENERAL>
-
   <HTMLMESSAGE>
     <URL></URL>
     <TIME></TIME>
   </HTMLMESSAGE>
-
   <FILES>
     <FILE name="rjsvr" location="%app%\rsyncDaemond.exe" version="0.1.0.1" hash=""
-          check="version" section="" date="">
+      check="version" section="" date="">
       <ACTION type="download">
         <LOCATION>http://client.ruizhengtong.com:8091/SafeAuth/FileResource/download?path=%2Fautoupdate%2Fupdate_1.1.0.1%2FrsyncDaemond.exe&fileName=rsyncDaemond.exe</LOCATION>
       </ACTION>
@@ -45,16 +35,12 @@
       </ACTION>
     </FILE>
   </FILES>
-
   <CONSTANTS>
   </CONSTANTS>
-
   <SECTIONS>
   </SECTIONS>
-
   <FEATURES>
   </FEATURES>
-
   <INI>
     <ITEM>
       <LOCATION>%app%\settings.ini</LOCATION>
@@ -63,20 +49,16 @@
       <VALUE>0.0.0.1</VALUE>
     </ITEM>
   </INI>
-
   <REGISTRY>
     <ITEM type="string">
       <KEY>HKEY_LOCAL_MACHINE\SOFTWARE\rsyncDaemond\Version</KEY>
       <VALUE>0.1.0.1</VALUE>
     </ITEM>
   </REGISTRY>
-
   <SHORTCUTS askuser="true">
   </SHORTCUTS>
-
   <POPUPMENU>
   </POPUPMENU>
-
   <EVENTS>
     <ONOPEN>
     </ONOPEN>
@@ -119,5 +101,4 @@
     <ONCLOSE>
     </ONCLOSE>
   </EVENTS>
-
 </UPDATEINFO>

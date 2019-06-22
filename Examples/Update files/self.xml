@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+  <SELFUPDATE>
+    <VERSION>0.8.1.6</VERSION>
+    <LOCATION>http://client.ruizhengtong.com:8091/SafeAuth/FileResource/download?path=%2Fautoupdate%2Fupdater.exe&fileName=updater.exe</LOCATION>
+  </SELFUPDATE>
