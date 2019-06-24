@@ -1424,7 +1424,8 @@ LRESULT CALLBACK CCustomBitmapButton::CaptionFrameWindowProc(HWND hWnd, UINT mes
 			CRect r;
 			pWnd->GetWindowRect(r);
 			pt.Offset(-r.left,-r.top);
-			for(int i=0;i<p->m_aButtons.GetSize();i++)
+			int i = 0;
+			for(;i<p->m_aButtons.GetSize();i++)
 			{
 				if(p->m_aButtons[i]->m_rect.PtInRect(pt))
 				{
@@ -2024,7 +2025,7 @@ void CCustomBitmapButton::DrawNCClasic(CWnd* pWnd)
 
 	dc.BitBlt(ptOffset.x,ptOffset.y,rCaption.Width(),rCaption.Height(),&dcMem,0,0,SRCCOPY);
 	dcMem.SelectObject(pOldBmp);
-	for(i=0; i<m_aButtons.GetSize(); i++)
+	for(int i=0; i<m_aButtons.GetSize(); i++)
 	{
 		if(!m_aButtons[i]->m_rect.IsRectEmpty())
 			m_aButtons[i]->m_rect.OffsetRect(sizeFrame);

@@ -2,7 +2,7 @@
 // Microsoft Developer Studio generated include file.
 // Used by Updater.rc
 //
-#define IDR_MANIFEST                    1
+//#define IDR_MANIFEST                    1
 #define IDM_ABOUTBOX                    0x0010
 #define IDD_FULL_PROPPAGE_DOWNLOAD      101
 #define IDD_FULL_PROPPAGE_INSTALL       102

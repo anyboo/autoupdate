@@ -8,7 +8,8 @@
 
 #pragma once
 
-#include "TmSchema.h"
+//#include "TmSchema.h"
+#include "vssym32.h"
 
 #ifndef WM_THEMECHANGED
 #define WM_THEMECHANGED      0x031A

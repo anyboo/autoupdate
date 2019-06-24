@@ -364,6 +364,8 @@ const CString REGTYPE_DWORD		= _T("dword");
 // THREAD ACTIONS
 //*********************************************************************
 
+#undef THREAD_RESUME
+
 const int THREAD_START			= 0;
 const int THREAD_PAUSE			= 1;
 const int THREAD_RESUME			= 2;
@@ -547,13 +549,13 @@ const char CRYPT_PREFIX[]	= "enc";
 // HTTP VERBS
 //*********************************************************************
 
-const HTTP_VERB_POST = 0;
-const HTTP_VERB_GET = 1;
-const HTTP_VERB_HEAD = 2;
-const HTTP_VERB_PUT = 3;
-const HTTP_VERB_LINK = 4;
-const HTTP_VERB_DELETE = 5;
-const HTTP_VERB_UNLINK = 6;
+const int HTTP_VERB_POST = 0;
+const int HTTP_VERB_GET = 1;
+const int HTTP_VERB_HEAD = 2;
+const int HTTP_VERB_PUT = 3;
+const int HTTP_VERB_LINK = 4;
+const int HTTP_VERB_DELETE = 5;
+const int HTTP_VERB_UNLINK = 6;
 
 //*********************************************************************
 // STRUCTS

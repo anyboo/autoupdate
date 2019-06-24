@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0477f392-198c-4de1-a5e4-7442c32b7a37}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\3rdParty_cpp">
+      <UniqueIdentifier>{4d63332e-21db-4f15-acbe-13001402f417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actions_cpp">
+      <UniqueIdentifier>{57fd36c6-a9cd-417f-a3a2-b0922d296f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Copy_cpp">
+      <UniqueIdentifier>{6825870d-7cbc-4c13-a5a3-0e8a78d1afe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data_cpp">
+      <UniqueIdentifier>{4b05e9b9-7391-4ec0-b3ef-c9cd8ab3d935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Info_cpp">
+      <UniqueIdentifier>{c164d76b-e2a0-4f1d-93df-8eb85034435e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Internet_cpp">
+      <UniqueIdentifier>{a4040eb4-599c-4beb-9c40-5a7aa7aad566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Singleton_cpp">
+      <UniqueIdentifier>{a9c0f4f5-e820-4a48-b83c-c232e7bdc396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tasks_cpp">
+      <UniqueIdentifier>{3e99c747-3db5-4feb-9ef2-110bf627d2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI_cpp">
+      <UniqueIdentifier>{4da32713-504e-46dd-8907-4e5d55b1bbb5}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UI_cpp\Controls_cpp">
+      <UniqueIdentifier>{d9bca316-5a51-43c4-96d6-7e94c309b2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI_cpp\Dialogs_cpp">
+      <UniqueIdentifier>{bb0b391a-354c-4346-89fe-e4ed9d84bf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process_cpp">
+      <UniqueIdentifier>{aa3dca0b-936e-45b7-bd1a-31748950d278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5454b388-b90b-43e1-abe0-ce7ee05d8143}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\3rdParty_h">
+      <UniqueIdentifier>{4e0088ca-f61c-405c-966f-9ac7df6821dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actions_h">
+      <UniqueIdentifier>{38f54bf3-1c0f-4590-849d-58c71ec33afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Copy_h">
+      <UniqueIdentifier>{34eb5b53-fd11-4320-b117-34510b854610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data_h">
+      <UniqueIdentifier>{125e7cde-bcca-4ce2-af61-f192d5874af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Info_h">
+      <UniqueIdentifier>{3567a6bc-3424-4181-8cfb-dc091013e866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internet_h">
+      <UniqueIdentifier>{635c62c1-c2fd-4544-b311-9476bbd52941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Singleton_h">
+      <UniqueIdentifier>{821c9e25-1a93-44d6-bd32-0ffe0d022fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tasks_h">
+      <UniqueIdentifier>{7343cc71-ada6-4b26-b975-a8fe67b8d7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI_h">
+      <UniqueIdentifier>{6637e302-ae7b-4f8c-80c0-8edf5af81b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI_h\Controls_h">
+      <UniqueIdentifier>{5b87376a-3967-4122-abee-934a4f9d0d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI_h\Dialogs_h">
+      <UniqueIdentifier>{cfa4cb36-506c-40f4-97fe-6c5f4da9b38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process_h">
+      <UniqueIdentifier>{1005b64a-10ec-41ad-9cf3-816760cbaf59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e359f88-15fa-4891-89b3-4d742ca269ec}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Icons">
+      <UniqueIdentifier>{3ea40998-7c4b-4a34-95a1-db169e4381bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Bitmaps">
+      <UniqueIdentifier>{a1382047-89c2-4f42-be02-4e0323478ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Cursors">
+      <UniqueIdentifier>{2a794ef0-a58f-44ea-a05f-218220e174d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Executables">
+      <UniqueIdentifier>{39db9384-2f2c-49e8-8cb5-f78ebdf60352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CustomBitmapButton.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FileVersion.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GetOpt.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Rijndael.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemTray.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemeUtil.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Unzipper.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="XHTMLStatic.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="XHyperLink.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="XNamedColors.cpp">
+      <Filter>Source Files\3rdParty_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPoints.cpp">
+      <Filter>Source Files\Actions_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyFile.cpp">
+      <Filter>Source Files\Copy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyFolder.cpp">
+      <Filter>Source Files\Copy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EventData.cpp">
+      <Filter>Source Files\Data_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FileData.cpp">
+      <Filter>Source Files\Data_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IniData.cpp">
+      <Filter>Source Files\Data_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryData.cpp">
+      <Filter>Source Files\Data_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionData.cpp">
+      <Filter>Source Files\Data_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutData.cpp">
+      <Filter>Source Files\Data_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EventInfo.cpp">
+      <Filter>Source Files\Info_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RestoreInfo.cpp">
+      <Filter>Source Files\Info_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RollbackInfo.cpp">
+      <Filter>Source Files\Info_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfUpdateInfo.cpp">
+      <Filter>Source Files\Info_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateInfo.cpp">
+      <Filter>Source Files\Info_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionTest.cpp">
+      <Filter>Source Files\Internet_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpFileObject.cpp">
+      <Filter>Source Files\Internet_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpFileObject.cpp">
+      <Filter>Source Files\Internet_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Internet.cpp">
+      <Filter>Source Files\Internet_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkFileObject.cpp">
+      <Filter>Source Files\Internet_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>Source Files\Internet_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyInfo.cpp">
+      <Filter>Source Files\Internet_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyWPAD.cpp">
+      <Filter>Source Files\Internet_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GarbageCollector.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalData.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Language.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RiskFunctions.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sections.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="StringFunctions.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDataCollection.cpp">
+      <Filter>Source Files\Singleton_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BackUp.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckVersion.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Download.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Install.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallFiles.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallIni.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallRegistry.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Restore.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Rollback.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectUpdate.cpp">
+      <Filter>Source Files\Tasks_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EditLicense.cpp">
+      <Filter>Source Files\UI_cpp\Controls_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperlinkLabel.cpp">
+      <Filter>Source Files\UI_cpp\Controls_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultLabel.cpp">
+      <Filter>Source Files\UI_cpp\Controls_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentBitmap.cpp">
+      <Filter>Source Files\UI_cpp\Controls_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentIcon.cpp">
+      <Filter>Source Files\UI_cpp\Controls_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentStatic.cpp">
+      <Filter>Source Files\UI_cpp\Controls_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeUpdater.cpp">
+      <Filter>Source Files\UI_cpp\Controls_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WebBrowser.cpp">
+      <Filter>Source Files\UI_cpp\Controls_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthenticationDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseApplicationDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmationDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InformationDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LogViewerDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropCheck.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropDownload.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropFinish.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropHtmlMessage.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropInstall.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropLicense.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropProtection.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropRollback.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropSelectUpdate.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullPropWelcome.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeFullSheet.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeHidden.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeSilent.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NotifyDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxySettingsDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RestoreDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectLanguageDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningDlg.cpp">
+      <Filter>Source Files\UI_cpp\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckForUpdatesProcess.cpp">
+      <Filter>Source Files\Process_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateProcess.cpp">
+      <Filter>Source Files\Process_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Updater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Updater.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CustomBitmapButton.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="FileVersion.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="GetOpt.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Rijndael.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemTray.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemeUtil.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Unzipper.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="XHTMLStatic.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="XHyperLink.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="XNamedColors.h">
+      <Filter>Header Files\3rdParty_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPoints.h">
+      <Filter>Header Files\Actions_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions.h">
+      <Filter>Header Files\Actions_h</Filter>
+    </ClInclude>
+    <ClInclude Include="EventActions.h">
+      <Filter>Header Files\Actions_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RestoreActions.h">
+      <Filter>Header Files\Actions_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RollbackActions.h">
+      <Filter>Header Files\Actions_h</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyFile.h">
+      <Filter>Header Files\Copy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyFolder.h">
+      <Filter>Header Files\Copy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="EventData.h">
+      <Filter>Header Files\Data_h</Filter>
+    </ClInclude>
+    <ClInclude Include="FileData.h">
+      <Filter>Header Files\Data_h</Filter>
+    </ClInclude>
+    <ClInclude Include="IniData.h">
+      <Filter>Header Files\Data_h</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupMenuData.h">
+      <Filter>Header Files\Data_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryData.h">
+      <Filter>Header Files\Data_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionData.h">
+      <Filter>Header Files\Data_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutData.h">
+      <Filter>Header Files\Data_h</Filter>
+    </ClInclude>
+    <ClInclude Include="EventInfo.h">
+      <Filter>Header Files\Info_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RestoreInfo.h">
+      <Filter>Header Files\Info_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RollbackInfo.h">
+      <Filter>Header Files\Info_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfUpdateInfo.h">
+      <Filter>Header Files\Info_h</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateInfo.h">
+      <Filter>Header Files\Info_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionTest.h">
+      <Filter>Header Files\Internet_h</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpFileObject.h">
+      <Filter>Header Files\Internet_h</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpFileObject.h">
+      <Filter>Header Files\Internet_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Internet.h">
+      <Filter>Header Files\Internet_h</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkFileObject.h">
+      <Filter>Header Files\Internet_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>Header Files\Internet_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyInfo.h">
+      <Filter>Header Files\Internet_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyWPAD.h">
+      <Filter>Header Files\Internet_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="GarbageCollector.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalData.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Language.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RiskFunctions.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Sections.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFunctions.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDataCollection.h">
+      <Filter>Header Files\Singleton_h</Filter>
+    </ClInclude>
+    <ClInclude Include="BackUp.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckVersion.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Download.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Install.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="InstallFiles.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="InstallIni.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="InstallRegistry.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Restore.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Rollback.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectUpdate.h">
+      <Filter>Header Files\Tasks_h</Filter>
+    </ClInclude>
+    <ClInclude Include="EditLicense.h">
+      <Filter>Header Files\UI_h\Controls_h</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperlinkLabel.h">
+      <Filter>Header Files\UI_h\Controls_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultLabel.h">
+      <Filter>Header Files\UI_h\Controls_h</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentBitmap.h">
+      <Filter>Header Files\UI_h\Controls_h</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentIcon.h">
+      <Filter>Header Files\UI_h\Controls_h</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentStatic.h">
+      <Filter>Header Files\UI_h\Controls_h</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeUpdater.h">
+      <Filter>Header Files\UI_h\Controls_h</Filter>
+    </ClInclude>
+    <ClInclude Include="WebBrowser.h">
+      <Filter>Header Files\UI_h\Controls_h</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthenticationDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseApplicationDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmationDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="InformationDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="LogViewerDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropCheck.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropDownload.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropFinish.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropHtmlMessage.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropInstall.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropLicense.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropProtection.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropRollback.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropSelectUpdate.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullPropWelcome.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeFullSheet.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeHidden.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeSilent.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="NotifyDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxySettingsDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RestoreDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectLanguageDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningDlg.h">
+      <Filter>Header Files\UI_h\Dialogs_h</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckForUpdatesProcess.h">
+      <Filter>Header Files\Process_h</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateProcess.h">
+      <Filter>Header Files\Process_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Updater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Check icons\Check_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Check icons\Check_2.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Check icons\Check_3.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Check icons\Check_4.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Check icons\Check_5.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Download icons\Download_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Download icons\Download_2.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Download icons\Download_3.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Download icons\Download_4.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Install icons\v2\Install_1_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Install icons\v2\Install_2_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Install icons\v2\Install_3_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Install icons\v2\Install_4_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Install icons\v2\Install_5_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Install icons\v2\Install_6_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Install icons\v2\Install_7_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Install icons\v2\Install_8_1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\LogViewer.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Restore.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Result_error.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Result_good.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Updater.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\about.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\authentication.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\bmpQuestionMark.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\confirmation.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\error.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\information.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\language_select.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\logol.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\logos.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\updater.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\updater_neg.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\warning.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\wizard_header.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+    <Image Include="res\close_application.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\Hand.cur">
+      <Filter>Resource Files\Cursors</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\UpdaterCopy.exe">
+      <Filter>Resource Files\Executables</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Updater.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
