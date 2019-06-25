@@ -1,0 +1,10 @@
+<map id="CActionBase" name="CActionBase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,104,184"/>
+<area shape="rect" id="node2" href="$class_c_action_copy.html" title=" " alt="" coords="168,5,267,32"/>
+<area shape="rect" id="node3" href="$class_c_action_delete.html" title=" " alt="" coords="165,56,270,83"/>
+<area shape="rect" id="node4" href="$class_c_action_download.html" title=" " alt="" coords="155,107,279,133"/>
+<area shape="rect" id="node5" href="$class_c_action_register.html" title=" " alt="" coords="159,157,275,184"/>
+<area shape="rect" id="node6" href="$class_c_action_run.html" title=" " alt="" coords="172,208,263,235"/>
+<area shape="rect" id="node7" href="$class_c_action_set_file_attr.html" title=" " alt="" coords="152,259,283,285"/>
+<area shape="rect" id="node8" href="$class_c_action_unzip.html" title=" " alt="" coords="167,309,268,336"/>
+</map>

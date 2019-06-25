@@ -1,0 +1,7 @@
+<map id="CRollbackActionBase" name="CRollbackActionBase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,153,108"/>
+<area shape="rect" id="node2" href="$class_c_rollback_action_copy.html" title=" " alt="" coords="216,5,364,32"/>
+<area shape="rect" id="node3" href="$class_c_rollback_action_delete.html" title=" " alt="" coords="213,56,367,83"/>
+<area shape="rect" id="node4" href="$class_c_rollback_action_registry.html" title=" " alt="" coords="207,107,373,133"/>
+<area shape="rect" id="node5" href="$class_c_rollback_action_unregister.html" title=" " alt="" coords="201,157,379,184"/>
+</map>

@@ -663,6 +663,9 @@
     <CustomBuild Include="res\Updater.rc2" />
     <CustomBuild Include="res\UpdaterCopy.exe" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

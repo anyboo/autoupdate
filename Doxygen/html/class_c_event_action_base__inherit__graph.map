@@ -1,0 +1,10 @@
+<map id="CEventActionBase" name="CEventActionBase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,136,184"/>
+<area shape="rect" id="node2" href="$class_c_event_action_close.html" title=" " alt="" coords="216,5,349,32"/>
+<area shape="rect" id="node3" href="$class_c_event_action_close_application.html" title=" " alt="" coords="184,56,381,83"/>
+<area shape="rect" id="node4" href="$class_c_event_action_run.html" title=" " alt="" coords="221,107,344,133"/>
+<area shape="rect" id="node5" href="$class_c_event_action_set_mode.html" title=" " alt="" coords="207,157,359,184"/>
+<area shape="rect" id="node6" href="$class_c_event_action_show_notifier.html" title=" " alt="" coords="197,208,369,235"/>
+<area shape="rect" id="node7" href="$class_c_event_action_skip_next_task.html" title=" " alt="" coords="192,259,373,285"/>
+<area shape="rect" id="node8" href="$class_c_event_action_start_next_task.html" title=" " alt="" coords="191,309,374,336"/>
+</map>
